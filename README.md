@@ -16,7 +16,7 @@ Clone o repositório e instale as dependências:
 ```bash
 git clone https://github.com/seu-usuario/producer-awards-gap.git
 cd producer-awards-gap
-npm install
+npm run install
 # ou
 yarn install
 ```
@@ -44,7 +44,7 @@ Colunas:
 - `title`: Título do filme
 - `studios`: Estúdio(s) responsável(is)
 - `producers`: Produtor(es) do filme (separados por vírgula ou "and")
-- `winner`: Preencha com yes se o filme foi vencedor, ou deixe em branco caso não tenha vencido
+- `winner`: Preencha com `yes` se o filme foi vencedor, ou deixe `em branco` caso não tenha vencido
 
 Esse script irá validar e inserir os dados dos filmes no banco.
 
