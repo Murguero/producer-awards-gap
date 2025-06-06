@@ -3,7 +3,7 @@ import { Movie } from '../infra/typeorm/entities/Movie';
 
 const AppDataSource = new DataSource({
   type: 'sqlite',
-  database: 'dev.sqlite',
+  database: ':memory:',
   entities: [Movie],
   migrations: ['src/infra/typeorm/migrations/*.ts'],
   migrationsRun: true,
