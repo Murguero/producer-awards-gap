@@ -129,6 +129,20 @@ src/
 - **files/**: Pasta que contem o arquivo excel a ser lido.
 - **utils/**: Scripts utilitários, como o importador de CSV.
 
+### 🔎 Testes
+
+Para executar os testes:
+
+```bash
+npm run test
+```
+
+ou
+
+```bash
+yarn test
+```
+
 ## 📋 Observações
 
 - O projeto utiliza validação dos dados do CSV antes de inserir no banco.
